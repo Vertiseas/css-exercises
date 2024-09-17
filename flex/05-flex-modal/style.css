@@ -20,6 +20,43 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My Solutions */
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  outline: 1px solid red;
+  justify-content: space-around;
+}
+
+.icon {
+  outline: 1px solid red;
+  flex-shrink: 0;
+}
+
+.header {
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h3 {
+  outline: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  outline: 1px solid red;
+  gap: 5px;
 }
 
 .icon {
@@ -48,6 +85,9 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+  outline: 1px solid red;
+  align-self: flex-end;
 }
 
 button {
